@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Page</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+    <h1>My Favorite Song</h1>
+
+    <!-- Embedded YouTube Video -->
+    <div id="video-container">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/QQ84s2uzZ1w" title="Lighthouse Family - Ocean Drive (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <script src="site.js"></script>
+
+</body>
+</html>
